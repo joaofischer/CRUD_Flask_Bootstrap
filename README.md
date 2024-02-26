@@ -1,3 +1,3 @@
-CRUD using Python Flask + Html/CSS
+Simples CRUD using Flask+Bootstrap
 
-All tasks done without the need of page reload.
+All data updates without the need of page reload.
