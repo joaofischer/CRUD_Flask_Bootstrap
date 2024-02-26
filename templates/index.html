@@ -30,16 +30,6 @@
       <!-- Lista de CLientes -->
       <div c-container="{{ url_for('cliente.lista_clientes') }}"></div>
 
-      <!-- Button trigger modal -->
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Launch demo modal
-      </button>
-
       <!-- Modal -->
       <div
         class="modal fade"
@@ -63,16 +53,6 @@
             </div>
             <div class="modal-body" id="exibir-cliente"></div>
             <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
             </div>
           </div>
         </div>
